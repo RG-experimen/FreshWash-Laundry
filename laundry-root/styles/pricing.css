@@ -1,0 +1,125 @@
+/* Pricing Section */
+.pricing-section {
+    padding-top: 140px;
+    padding-bottom: 40px;
+}
+
+/* Pricing Heading */
+.pricing-heading {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.pricing-heading h1 {
+    color: #007BFF;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.pricing-heading p {
+    color: #555555;
+    font-size: 16px;
+}
+
+/* Pricing Container */
+.pricing-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+/* Price Card */
+.price-card {
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    border-top: 4px solid #007BFF;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.price-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.price-card h2 {
+    color: #007BFF;
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+
+.price-description {
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Price Detail */
+.price-detail {
+    padding: 12px 0;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.price-detail:last-child {
+    border-bottom: none;
+}
+
+.price-detail p {
+    color: #555555;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.price-detail h3 {
+    color: #333333;
+    font-size: 20px;
+}
+
+.price-detail span {
+    color: #777777;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+/* Pricing Note */
+.pricing-note {
+    background-color: #FFFFFF;
+    padding: 25px;
+    margin-top: 35px;
+    border-left: 5px solid #FFC107;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+.pricing-note h2 {
+    color: #007BFF;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.pricing-note ul {
+    list-style: disc;
+    padding-left: 22px;
+}
+
+.pricing-note li {
+    color: #555555;
+    margin-bottom: 8px;
+}
+
+/* Footer */
+.main-footer {
+    background-color: #101A30;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.main-footer p {
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.5;
+}
