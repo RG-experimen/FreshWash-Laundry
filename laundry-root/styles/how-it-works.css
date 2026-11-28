@@ -1,7 +1,6 @@
-
 /* HERO SECTION */
 .hero {
-    background-color: #dff3ff;
+    background-color: #e8f1fb;
     padding: 80px 40px;
     text-align: center;
 }
@@ -12,13 +11,13 @@
 }
 
 .subtitle {
-    color: #1684b8;
+    color: #0056b3;
     font-weight: bold;
     letter-spacing: 3px;
 }
 
 .hero h1 {
-    color: #075985;
+    color: #003d82;
     font-size: 38px;
     margin: 15px 0;
 }
@@ -31,7 +30,7 @@
 /* PROCESS SECTION */
 .process-section {
     padding: 60px 8%;
-    background-color: #f8fcff;
+    background-color: #f8fafc;
 }
 
 .section-title {
@@ -40,7 +39,7 @@
 }
 
 .section-title h2 {
-    color: #075985;
+    color: #003d82;
     font-size: 30px;
 }
 
@@ -68,7 +67,7 @@
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    border-left: 5px solid #38bdf8;
+    border-left: 5px solid #ffc107;
     position: relative;
     transition: 0.3s;
 }
@@ -79,18 +78,18 @@
 }
 
 .process-number {
-    background-color: #0284c7;
-    color: white;
+    background-color: #0056b3;
+    color: #ffc107;
     font-size: 22px;
     font-weight: bold;
     padding: 12px;
     border-radius: 10px;
-    min-width: 45px;
+    min-width: 48px;
     text-align: center;
 }
 
 .process-content h3 {
-    color: #075985;
+    color: #003d82;
     margin-bottom: 10px;
     font-size: 19px;
 }
@@ -102,17 +101,18 @@
 }
 
 .process-content span {
-    color: #0284c7;
+    color: #0056b3;
     font-weight: bold;
     font-size: 14px;
 }
 
 /* INFORMATION SECTION */
 .info-section {
-    background-color: #075985;
+    background-color: #0056b3;
     color: white;
     text-align: center;
     padding: 50px 15%;
+    border-top: 4px solid #ffc107;
 }
 
 .info-section h2 {
@@ -124,15 +124,17 @@
     line-height: 1.8;
 }
 
-/* FOOTER */
-.footer {
-    background-color: #082f49;
-    color: white;
-    text-align: center;
-    padding: 25px;
-}
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .process-list {
+        grid-template-columns: 1fr;
+    }
 
-.footer p {
-    margin: 8px;
-    font-size: 14px;
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
 }
